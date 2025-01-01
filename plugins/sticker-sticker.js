@@ -36,7 +36,7 @@ console.error(e)
 if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: ``, mediaType: 2, sourceUrl: [nna, nn, md, yt].getRandom(), thumbnail: imagen4}}}, { quoted: m })
-else return m.reply(`*Y la imagen? 🤔 Responde a una imagen para hacer el sticker. Usa:* ${usedPrefix + command}`) 
+else return m.reply(`*أين هي الصوره? 🤔 قم بالرد على الصوره التي تود تحويلها لستكير وذلك بكتابت. هذا:* ${usedPrefix + command}`) 
 }}
 handler.help = ['sticker']
 handler.tags = ['sticker']
